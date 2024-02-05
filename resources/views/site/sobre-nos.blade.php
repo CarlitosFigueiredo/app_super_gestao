@@ -3,7 +3,6 @@
 @section('titulo', 'Sobre Nós')
 
 @section('conteudo')
-
     <div class="conteudo-pagina">
         <div class="titulo-pagina">
             <h1>Olá, eu sou o Super Gestão</h1>
@@ -30,7 +29,7 @@
         </div>
         <div class="localizacao">
             <h2>Localização</h2>
-            <img src="img/mapa.png">
+            <img src="{{ asset('img/mapa.png') }}">
         </div>
     </div>
 @endsection
